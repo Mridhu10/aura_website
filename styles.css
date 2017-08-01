@@ -1,0 +1,15 @@
+#backgroundpic {
+  color: #8cff1a;
+  background: url("https://pix10.agoda.net/hotelImages/702/70206/70206_14070816070020188773.jpg?s=1024x768") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 200px;
+  text-align: center;
+}
+
+#backgroundpic p {
+  color: #ff1ac6;
+  font-size: 16px;
+}
