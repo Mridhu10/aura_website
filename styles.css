@@ -1,15 +1,22 @@
 #backgroundpic {
-  color: #8cff1a;
-  background: url("https://pix10.agoda.net/hotelImages/702/70206/70206_14070816070020188773.jpg?s=1024x768") no-repeat center center;
+  color: white;
+  background: url("http://cdn.pcwallart.com/images/tropical-island-sunset-wallpaper-1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 200px;
+  font-size: 100px;
   text-align: center;
+  font-family: 'Aclonica';
+}
+
+ul.nav li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 30px
 }
 
 #backgroundpic p {
   color: #ff1ac6;
-  font-size: 16px;
+  font-size: 60px;
 }
