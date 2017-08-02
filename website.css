@@ -1,5 +1,26 @@
 
 body
 {
-background: url('holidays.jpg') no-repeat center center;
+background: url('holidays.jpg');
+}
+h1 {
+  color: Turquoise
+}
+h2{
+  color: Orange
+}
+p{
+  color: Blue
+}
+p2 {
+  color: Purple
+}
+ul {
+  color: Red
+}
+h3 {
+  color: #B228B4
+}
+p3 {
+  color: #B428A3
 }
