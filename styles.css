@@ -2,6 +2,10 @@ body {
   background-color: #e6fff3;
 }
 
+img{
+  width: 100px;
+}
+
 #backgroundpic h2 {
   color: white;
 }
