@@ -1,26 +1,29 @@
-#backgroundpic {
-  color: white;
-  background: url("http://cdn.pcwallart.com/images/tropical-island-sunset-wallpaper-1.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-size: 100px;
-  text-align: center;
-  font-family: 'Aclonica';
-}
 
 body {
   background-color: #e6fff3;
 }
 
 ul.nav li {
-  display: inline-block;
+  display: inline;
+  list-style-type: none;
   padding-right: 10px;
-  font-size: 30px
+  font-size: 16px;
+  color: white
 }
 
-#backgroundpic p {
-  color: #ff1ac6;
-  font-size: 60px;
+#backgroundpic h2 {
+  color: white;
+}
+
+#backgroundpic h1 {
+  color: white
+}
+
+#backgroundpic {
+  background: url("http://cdn.pcwallart.com/images/tropical-island-sunset-wallpaper-1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
 }
