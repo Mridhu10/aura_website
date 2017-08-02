@@ -12,7 +12,12 @@ html {
 body {
 
   margin: 0;
-}
+  /*background: url('tropical.jpg');
+       background-size: 1440px 800px;
+       background-repeat:no-repeat;
+       display: compact;
+       font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+     }
 article,
 aside,
 details,

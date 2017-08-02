@@ -38,11 +38,13 @@ body {
 
 #phone_email {
   text-align: left left;
+  background-color: black;
+  color: white;
 }
 
 .container {
     overflow: hidden;
-    background-color: #333;
+    background-color:#777799
     font-family: Arial;
 }
 
