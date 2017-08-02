@@ -27,3 +27,24 @@ ul.nav li {
   background-size: cover;
   text-align: center;
 }
+
+.bottominfo {
+  background-color: black;
+  color: white;
+}
+
+.btn-twitter {
+  color: black;
+}
+
+.btn-instagram {
+  color: black;
+}
+
+.btn-snapchat {
+  color: black;
+}
+
+#phone_email {
+  text-align: left left;
+}
