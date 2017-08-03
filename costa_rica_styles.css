@@ -84,3 +84,13 @@ img{
   padding: 14px 16px;
   text-decoration: none;
 }
+
+#myCarousel {
+  height: 450px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:640px;
+    height:360px;
+}
