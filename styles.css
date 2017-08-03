@@ -2,7 +2,9 @@ html, body {
   margin: 0;
   height: 100%;
 }
-
+h1#header{
+  font-family: lucida;
+}
 body {
   background-color: white;
 }
