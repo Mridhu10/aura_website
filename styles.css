@@ -26,11 +26,22 @@ img{
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
+  width: 100%;
+  min-width: 500px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .bottominfo {
   background-color: black;
   color: white;
+}
+
+.bottominfo img {
+  width: 150px;
+  height: 100px;
+  background-color: black;
 }
 
 .btn-twitter {
@@ -46,7 +57,7 @@ img{
 }
 
 #phone_email {
-  text-align: left left;
+  text-align: right right;
   background-color: black;
   color: white;
 }
