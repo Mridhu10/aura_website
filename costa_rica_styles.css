@@ -3,6 +3,10 @@ html, body {
   height: 100%;
 }
 
+h1#header{
+  font-family: lucida;
+}
+
 body {
   background-color: white;
 }
@@ -52,6 +56,16 @@ h3 {
 }
 
 .accom {
+  background-color: white !important;
+}
+
+.att img {
+  width: 300px;
+  height: 210px;
+  background-color: white;
+}
+
+.att {
   background-color: white !important;
 }
 
