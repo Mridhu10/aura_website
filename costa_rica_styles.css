@@ -105,3 +105,10 @@ h3 {
     width:640px;
     height:360px;
 }
+
+.container-fluid {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 999;
+}
