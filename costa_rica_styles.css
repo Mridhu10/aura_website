@@ -23,7 +23,7 @@ img{
   color: white
 }
 
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -49,26 +49,35 @@ h3 {
   margin-top: 60px;
 }
 
-.accom img {
+#accom img {
   width: 300px;
   height: 210px;
   background-color: white;
 }
 
-.accom {
+#accom {
   background-color: white !important;
 }
 
-.att img {
+#att img {
   width: 300px;
   height: 210px;
   background-color: white;
 }
 
-.att {
+#att {
   background-color: white !important;
 }
 
+#food img {
+  width: 300px;
+  height: 210px;
+  background-color: white;
+}
+
+#food {
+  background-color: white !important;
+}
 
 .bottominfo img {
   width: 150px;
