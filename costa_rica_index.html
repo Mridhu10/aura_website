@@ -32,7 +32,7 @@
             <li><a href="#">Amenities</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kaua’i, Hawaii <span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Kaua'i, Hawaii <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Accomodations</a></li>
             <li><a href="#">Tourist attractions and activities</a></li>
@@ -110,29 +110,29 @@
         </div>
       </div>
 
-    <div class="item">
-      <img src="img/cr5.PNG" alt="Volcano resort">
-      <div class="carousel-caption">
-        <h3>Volcano Resort</h3>
-        <p>Eruption of holiday madness!</p>
+      <div class="item">
+        <img src="img/cr5.PNG" alt="Volcano resort">
+        <div class="carousel-caption">
+          <h3>Volcano Resort</h3>
+          <p>Eruption of holiday madness!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/cr6.PNG" alt="Ceviche">
+        <div class="carousel-caption">
+          <h3>Ceviche</h3>
+          <p>Some awesome Costa Rican food!</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/cr7.PNG" alt="Casada">
+        <div class="carousel-caption">
+          <h3>Casada</h3>
+          <p>Tingling tastebuds!</p>
+        </div>
       </div>
     </div>
-
-    <div class="item">
-    <img src="img/cr6.PNG" alt="Ceviche">
-    <div class="carousel-caption">
-      <h3>Ceviche</h3>
-      <p>Some awesome Costa Rican food!</p>
-    </div>
-  </div>
-  <div class="item">
-    <img src="img/cr7.PNG" alt="Casada">
-    <div class="carousel-caption">
-      <h3>Casada</h3>
-      <p>Tingling tastebuds!</p>
-    </div>
-  </div>
-  </div>
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -149,66 +149,115 @@
     <p>So, why should you visit Costa Rica? One reason that it is a must-visit place is to see the lifestyle that brings about an impressive life expectancy of 79 years. The Nicoya Peninsula is specifically known for longevity (and also has a fantastic beach!). Some information about the country:</p>
     <ul>
       <li>The constitution of this peace-loving nation have forbidden a standing army since 1949 and is now home to the United Nations University for Peace.</li>
-      <li>The country is very biodiverse, hosting 5% of the world’s biodiversity while only taking up 0.03% of the world.</li>
-      <li>Costa Ricans have some quirky greetings - Instead of hola (hello), Costa Ricans say “Pura vida” (pure life). Costa Ricans also refer to their partners as “media naranja”, which means the other half of their orange.</li>
+      <li>The country is very biodiverse, hosting 5% of the world biodiversity while only taking up 0.03% of the world.</li>
+      <li>Costa Ricans have some quirky greetings - Instead of hola (hello), Costa Ricans say Pura vida (pure life). Costa Ricans also refer to their partners as Media naranja, which means the other half of their orange.</li>
     </ul>
   </div>
-  <div id="accom">
-    <h2>Accomodation</h2>
-    <div class="col-sm-4">
-      <img src="img/cr2.PNG" alt="Tango Mar">
-      <img src="img/tm.PNG" alt="map">
-      <p>The Tango Mar resort is the perfect place for a family stay, with many activities and an outdoor swimming pool, facing the beach. It is rated 4.5 stars and is at a cheap price which makes it perfect for families whatever the size!</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr3.PNG" alt="Casa Chameleon">
-      <img src="img/cc.PNG" alt="map">
-      <p>The Casa Chameleon was built with couples in mind, so if you're looking for a quiet tropical honeymoon, this is the best place for you. With beautifully decorated rooms, the hotel gives off an aura of tranquility and is a relaxing place to stay</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr9.PNG" alt="Pranamar Villas and Yoga Retreat">
-      <img src="img/pyr.PNG" alt="map">
-      <p>The Pranamar Villas and Yoga Retreat is ideally located on a pristine beach (Santa Teresa) on the Pacific Coast of the Nicoya Peninsula. Lush, tropical surroundings, year-round surfing, and warm sunshine bless each moment of your stay. This is a nine villa community designed with a tropical Asian and Costa Rican flair, including a chlorine-free pool.</p>
-    </div>
-  </div>
+  <script>
+  $(document).ready(function() {
+    function close_accordion_section() {
+      $('.accordion .accordion-section-title').removeClass('active');
+      $('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+    }
 
-  <div id="att">
-    <h2>Tourist attractions and activities</h2>
-    <div class="col-sm-4">
-      <img src="img/cr11.PNG" alt="Cabo Blanco">
-      <img src="img/cb.PNG" alt="map">
-      <p>Perfect for animal lovers, the Cabo Blanco Absolute Natural Reserve is a great place to visit and have a relaxing walk. You can learn about the various species of animals and wildlife, walk on the trail through the reserve and also go to the beach nearby.</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr12.JPG" alt="Santa Teresa">
-      <img src="img/st.PNG" alt="map">
-      <p>Just off the north side of Playa Mal Pais, Santa Teresa is one of those Nicoya Beaches that are not too crowded but offers nothing less than extraordinary panoramic views of landscapes, crystal blue waters and pristine white sand. This beach stands out as a good surfing spot too.</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr13.JPG" alt="Seascape Kayak Tours">
-      <img src="img/surf.PNG" alt="map">
-      <p>Imagine paddling in crystal clear water, snorkeling just off a white-sand beach, and catching a glimpse of sea turtles, laughing at playful monkeys and gliding right by huge pelicans. You can experience all this on a Seascape trip at Curu Wildlife Refuge, a small wildlife preserve and national park on the southern tip of the Nicoya Peninsula. </p>
-    </div>
-  </div>
+    $('.accordion-section-title').click(function(e) {
+      // Grab current anchor value
+      var currentAttrValue = $(this).attr('href');
 
-  <div id="food">
-    <h2>Amenities</h2>
-    <div class="col-sm-4">
-      <img src="img/cr14.PNG" alt="La Cuchara del Buen Sabor">
-      <img src="img/cbs.PNG" alt="map">
-      <p>Proper Costa Rican food in a secluded outdoor restaurant is what is offered at La Cuchara del Buen Sabor. WIth very friendly and helpful staff, this restaurant is a great place to eat, especially with a wide variety of fresh seafood options.</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr15.PNG" alt="Soda Pura Vida">
-      <img src="img/spv.PNG" alt="map">
-      <p>Want some good Costa Rican food at a reasonable price? Then Soda Pura Vida is the perfect place for you. The restaurant offers delicious food for fair prices and is close to Santa Teresa beach, which makes it perfect for people going to the beach.</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="img/cr16.PNG" alt="Pizza X Metro">
-      <img src="img/pxm.PNG" alt="map">
-      <p>Pizza X Metro is an Italian pizza restaurant in a scenic area. The pizzas are known to be fantastic, you get a beautiful view from the restaurant, the staff are very kind and cater to your needs and overall, a fantastic experience.</p>
-    </div>
-  </div>
+      if($(e.target).is('.active')) {
+        close_accordion_section();
+      }else {
+        close_accordion_section();
+
+        // Add active class to section title
+        $(this).addClass('active');
+        // Open up the hidden content panel
+        $('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
+      }
+
+      e.preventDefault();
+    });
+  });
+  </script>
+  <div class="accordion">
+    <div class="accordion-section">
+      <a class="accordion-section-title" href="#accordion-1">Accomodation</a>
+      <div id="accordion-1" class="accordion-section-content">
+        <div id="accom">
+          <h2>Accomodation</h2>
+          <div class="col-sm-4">
+            <img src="img/cr2.PNG" alt="Tango Mar">
+            <img src="img/tm.PNG" alt="map">
+            <p>The Tango Mar resort is the perfect place for a family stay, with many activities and an outdoor swimming pool, facing the beach. It is rated 4.5 stars and is at a cheap price which makes it perfect for families whatever the size!</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr3.PNG" alt="Casa Chameleon">
+            <img src="img/cc.PNG" alt="map">
+            <p>The Casa Chameleon was built with couples in mind, so if you're looking for a quiet tropical honeymoon, this is the best place for you. With beautifully decorated rooms, the hotel gives off an aura of tranquility and is a relaxing place to stay</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr9.PNG" alt="Pranamar Villas and Yoga Retreat">
+            <img src="img/pyr.PNG" alt="map">
+            <p>The Pranamar Villas and Yoga Retreat is ideally located on a pristine beach (Santa Teresa) on the Pacific Coast of the Nicoya Peninsula. Lush, tropical surroundings, year-round surfing, and warm sunshine bless each moment of your stay. This is a nine villa community designed with a tropical Asian and Costa Rican flair, including a chlorine-free pool.</p>
+          </div>
+        </div>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div><!--end .accordion-->
+
+  <div class="accordion">
+    <div class="accordion-section">
+      <a class="accordion-section-title" href="#accordion-2">Tourist attractions and activities</a>
+
+      <div id="accordion-2" class="accordion-section-content">
+        <div id="att">
+          <h2>Tourist attractions and activities</h2>
+          <div class="col-sm-4">
+            <img src="img/cr11.PNG" alt="Cabo Blanco">
+            <img src="img/cb.PNG" alt="map">
+            <p>Perfect for animal lovers, the Cabo Blanco Absolute Natural Reserve is a great place to visit and have a relaxing walk. You can learn about the various species of animals and wildlife, walk on the trail through the reserve and also go to the beach nearby.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr12.JPG" alt="Santa Teresa">
+            <img src="img/st.PNG" alt="map">
+            <p>Just off the north side of Playa Mal Pais, Santa Teresa is one of those Nicoya Beaches that are not too crowded but offers nothing less than extraordinary panoramic views of landscapes, crystal blue waters and pristine white sand. This beach stands out as a good surfing spot too.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr13.JPG" alt="Seascape Kayak Tours">
+            <img src="img/surf.PNG" alt="map">
+            <p>Imagine paddling in crystal clear water, snorkeling just off a white-sand beach, and catching a glimpse of sea turtles, laughing at playful monkeys and gliding right by huge pelicans. You can experience all this on a Seascape trip at Curu Wildlife Refuge, a small wildlife preserve and national park on the southern tip of the Nicoya Peninsula. </p>
+          </div>
+        </div>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div><!--end .accordion-->
+
+  <div class="accordion">
+    <div class="accordion-section">
+      <a class="accordion-section-title" href="#accordion-3">Amenities</a>
+
+      <div id="accordion-3" class="accordion-section-content">
+        <div id="food">
+          <h2>Amenities</h2>
+          <div class="col-sm-4">
+            <img src="img/cr14.PNG" alt="La Cuchara del Buen Sabor">
+            <img src="img/cbs.PNG" alt="map">
+            <p>Proper Costa Rican food in a secluded outdoor restaurant is what is offered at La Cuchara del Buen Sabor. WIth very friendly and helpful staff, this restaurant is a great place to eat, especially with a wide variety of fresh seafood options.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr15.PNG" alt="Soda Pura Vida">
+            <img src="img/spv.PNG" alt="map">
+            <p>Want some good Costa Rican food at a reasonable price? Then Soda Pura Vida is the perfect place for you. The restaurant offers delicious food for fair prices and is close to Santa Teresa beach, which makes it perfect for people going to the beach.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="img/cr16.PNG" alt="Pizza X Metro">
+            <img src="img/pxm.PNG" alt="map">
+            <p>Pizza X Metro is an Italian pizza restaurant in a scenic area. The pizzas are known to be fantastic, you get a beautiful view from the restaurant, the staff are very kind and cater to your needs and overall, a fantastic experience.</p>
+          </div>
+        </div>
+      </div><!--end .accordion-section-content-->
+    </div><!--end .accordion-section-->
+  </div><!--end .accordion-->
 
   <div class='bottominfo'>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWL1_mKqxupPclKyxNPED_KJ4lYJ6EyY8cIChCfXQUd-igNo-CQ" alt="A beach" class="pull-right">
