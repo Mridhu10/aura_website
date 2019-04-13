@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+h1#header{
+  font-family: lucida;
+}
+
+body {
+  background-color: white;
+}
+
+img{
+  width: 100px;
+}
+
+#backgroundpic h2 {
+  color: white;
+}
+
+#backgroundpic h1 {
+  color: white
+}
+
+h2 {
+  text-align: center;
+}
+
+#backgroundpic {
+  background: url("https://www.panamajack.com/blog/wp-content/uploads/2014/02/ss3.jpg") no-repeat center center;
+  width: 100%;
+  max-width: 100% !important;
+  padding: 0px !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.headingText {
+  float: left;
+  position: relative;
+  margin-left: 350px;
+  margin-top: 60px;
+}
+
+#accom img {
+  width: 300px;
+  height: 210px;
+  background-color: white;
+}
+
+#accom {
+  background-color: white !important;
+}
+
+#att img {
+  width: 300px;
+  height: 210px;
+  background-color: white;
+}
+
+#att {
+  background-color: white !important;
+}
+
+#food img {
+  width: 300px;
+  height: 210px;
+  background-color: white;
+}
+
+#food {
+  background-color: white !important;
+}
+
+.bottominfo img {
+  width: 150px;
+  height: 100px;
+}
+
+.btn-twitter {
+  color: black;
+}
+
+.btn-instagram {
+  color: black;
+}
+
+.btn-snapchat {
+  color: black;
+}
+
+
+
+#phone_email {
+  text-align: right right;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  overflow: hidden;
+  background-color:#777799
+  font-family: Arial;
+}
+
+.container a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#myCarousel {
+  height: 450px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    width:640px;
+    height:360px;
+}
+
+.container-fluid {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  z-index: 999;
+}
+
+/*----- Accordion -----*/
+.accordion, .accordion * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.accordion {
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+    border-radius: 3px;
+    background: #f7f7f7;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border-bottom: 1px solid #1a1a1a;
+    background: black;
+    transition: all linear 0.15s;
+    margin: 0.5px;
+    /* Type */
+    font-size: 1.200em;
+    text-shadow: 0px 1px 0px #1a1a1a;
+    color: #fff;
+    text-align: center;
+}
+
+.accordion-section-title.active, .accordion-section-title:hover {
+    background: #4c4c4c;
+    /* Type */
+    text-decoration: none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom: none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding: 15px;
+    display: none;
+}
